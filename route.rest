@@ -1,0 +1,29 @@
+GET http://localhost:8080/humans
+
+###
+
+GET http://localhost:8080/humans/623ce4d4fcf8f900a6c2fb98
+
+###
+
+POST  http://localhost:8080/humans
+Content-Type: application/json
+
+{
+  "name": "moh-x",
+  "age": 18,
+  "message": "Hello Earth!"
+}
+
+###
+
+PATCH  http://localhost:8080/humans/623cee2ae7e546d622afd822
+Content-Type: application/json
+
+{
+  "message": "Love and Light"
+}
+
+###
+
+DELETE http://localhost:8080/humans/623ce4d4fcf8f900a6c2fb98
